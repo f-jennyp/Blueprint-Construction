@@ -3,16 +3,16 @@
 
 	$siteInfo= [
 			//general info
-			"company_name" => "Company Name", 
-			"phone" =>  "000-000-0000", 		  //either no format or dashed format
-			"email" => "email@domain.com",   //by default is used as recipient email  
-			"address" => "Company Address", 
+			"company_name" => "Blueprint Construction Inc.", 
+			"phone" =>  "1(818)266-5286", 		  //either no format or dashed format
+			"email" => "info@buildwithbp.com",   //by default is used as recipient email  
+			"address" => "4100 W. Alameda Ave. 3rd. Floor Burbank Ca. 913505", 
 			
 			// email related
 			"site_key" => "6Lc23x0UAAAAACGIT_C0_gyWO3bkj6Q5n-f_pqbe",
 			"secret_key" => "6Lc23x0UAAAAAEhw1XBprAmlFaRVmS7-PZBmVwV5",
 			"email_from" => "mailer@domain.com",
-			"email_from_name" => "Company Name", //by default is the same as company name
+			"email_from_name" => "Blueprint Construction Inc.", //by default is the same as company name
 			"email_bcc" => "", //accepts multiple emails. Comma separated eg: email1@domain.com,email2@domain.com
 			"email_cc" => "", //accepts multiple emails. Comma separated eg: email1@domain.com,email2@domain.com
 

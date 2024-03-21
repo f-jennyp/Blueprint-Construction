@@ -3,19 +3,25 @@
 		<div class="row">
 			<div class="top" id="contact">
 				<div class="contact-con">
-					<div class="foreword">KEEP IN TOUCH</div>
 					<h1>Contact Form</h1>
-					<div class="to-sm">description here...</div>
+					<div class="to-sm">Get in touch with Blueprint Construction. FREE CONSULTATION, simply fill out the
+						form below and one of our team members will be in touch to get your gateway to dream
+						transformations. Let’s connect and bring your vision to life!</div>
 					<form action="sendContactForm" method="post" class="sends-email ctc-form">
 						<div class="flex">
 							<label><span class="ctc-hide">Name</span>
 								<input type="text" name="name" placeholder="Name">
 							</label>
+							<label><span class="ctc-hide">Phone</span>
+								<input type="text" name="phone" placeholder="Phone">
+							</label>
+						</div>
+						<div class="flex">
 							<label><span class="ctc-hide">Email</span>
 								<input type="text" name="email" placeholder="Email">
 							</label>
-							<label><span class="ctc-hide">Phone</span>
-								<input type="text" name="phone" placeholder="Phone">
+							<label><span class="ctc-hide">Confirm</span>
+								<input type="text" name="email" placeholder="Confirm Email">
 							</label>
 						</div>
 						<label><span class="ctc-hide">Message</span>
@@ -42,7 +48,7 @@
 								</label>
 							</div>
 
-							<div class="flex">
+							<div class="submit flex">
 								<div class="g-recaptcha"></div>
 
 								<button type="submit" class="ctcBtn btn hvr-grow hvr-sweep-to-top" disabled>Submit
