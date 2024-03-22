@@ -25,16 +25,16 @@
 	<!-- GOOGLE FONT -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
 </head>
 
 <body <?php $this->helpers->bodyClasses($view); ?>>
 	<?php $this->checkSuspensionHeader(); ?>
 	<header>
-		<div id="header" class="">
+		<div id="header" class="cssanimation fadeInTop ">
 			<div class="row flex">
-				<div class="logo-holder">
+				<div class="logo-holder hvr-grow">
 					<a href="home"><img loading="lazy" src="public/images/content/logo.png" alt="Logo"></a>
 				</div>
 
@@ -64,7 +64,7 @@
 	<div id="banner">
 		<div class="row">
 			<div class="banner-con">
-				<div class="top">
+				<div class="top cssanimation fadeInRight">
 					<div class="label">Your Dream House</div>
 					<div class="title">Shaping Dreams, Building Efficiency, Creating Homes.</div>
 
@@ -73,20 +73,20 @@
 					</div>
 				</div>
 
-				<div class="bottom">
+				<div class="bottom cssanimation fadeInLeft">
 					<div class="wrapper flex">
 						<div class="item">
-							<img loading="lazy" src="public/images/content/water.png" alt="Water Efficient">
+							<img loading="lazy" src="public/images/content/water.png" alt="Water Efficient" class="hvr-float">
 							<div class="label">Water Efficient</div>
 						</div>
 
 						<div class="item">
-							<img loading="lazy" src="public/images/content/energy.png" alt="Energy Efficient">
+							<img loading="lazy" src="public/images/content/energy.png" alt="Energy Efficient" class="hvr-float">
 							<div class="label">Energy Efficient</div>
 						</div>
 
 						<div class="item">
-							<img loading="lazy" src="public/images/content/24.png" alt="Title 24 Compliant">
+							<img loading="lazy" src="public/images/content/24.png" alt="Title 24 Compliant" class="hvr-float">
 							<div class="label">Title 24 Compliant</div>
 						</div>
 					</div>

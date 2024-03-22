@@ -3,7 +3,7 @@
 		<div class="row">
 			<div class="top" id="contact">
 				<div class="contact-con">
-					<h1>Contact Form</h1>
+					<h1>Contact Us</h1>
 					<div class="to-sm">Get in touch with Blueprint Construction. FREE CONSULTATION, simply fill out the
 						form below and one of our team members will be in touch to get your gateway to dream
 						transformations. Let’s connect and bring your vision to life!</div>
@@ -33,7 +33,7 @@
 						<div class="flex">
 							<div class="text-left ctcCheckbox">
 								<label>
-									<input type="checkbox" name="consent" class="consentBox">I hereby consent to
+									<input type="checkbox" name="consent" class="consentBox"> I hereby consent to
 									having this
 									website store my submitted information so that they can respond to my
 									inquiry.
@@ -51,8 +51,7 @@
 							<div class="submit flex">
 								<div class="g-recaptcha"></div>
 
-								<button type="submit" class="ctcBtn btn hvr-grow hvr-sweep-to-top" disabled>Submit
-									Form</button>
+								<button type="submit" class="ctcBtn btn hvr-grow hvr-sweep-to-top" disabled>SUBMIT FORM</button>
 							</div>
 						</div>
 					</form>
@@ -60,21 +59,21 @@
 			</div>
 
 			<div class="footer-con">
-				<div class="logo-holder">
+				<div class="logo-holder hvr-grow">
 					<a href="home"><img loading="lazy" src="public/images/content/logo.png" alt="Logo"></a>
 				</div>
 
 				<div class="socials">
 					<a href="<?php $this->info('fb_link') ?>" target="_blank"><img loading="lazy"
-							src="public/images/content/" alt=""></a>
-					<a href="<?php $this->info('in_link') ?>" target="_blank"><img loading="lazy"
-							src="public/images/content/" alt=""></a>
+							src="public/images/content/fb.png" alt=""></a>
+					<a href="<?php $this->info('ig_link') ?>" target="_blank"><img loading="lazy"
+							src="public/images/content/ig.png" alt=""></a>
 					<a href="<?php $this->info('yt_link') ?>" target="_blank"><img loading="lazy"
-							src="public/images/content/" alt=""></a>
+							src="public/images/content/yt.png" alt=""></a>
 					<a href="<?php $this->info('tt_link') ?>" target="_blank"><img loading="lazy"
-							src="public/images/content/" alt=""></a>
+							src="public/images/content/tt.png" alt=""></a>
 					<a href="<?php $this->info('gp_link') ?>" target="_blank"><img loading="lazy"
-							src="public/images/content/" alt=""></a>
+							src="public/images/content/gp.png" alt=""></a>
 				</div>
 
 				<div class="comp-info">
@@ -88,14 +87,14 @@
 
 						<div class="phone item">
 							<div class="label">PHONE</div>
-							<a href="tel:<?php $this->info("phone"); ?>">
+							<a class="hvr-grow" href="tel:<?php $this->info("phone"); ?>">
 								<?php $this->info("phone"); ?>
 							</a>
 						</div>
 
 						<div class="email item">
 							<div class="label">EMAIL</div>
-							<a href="mailto:<?php $this->info("email"); ?>">
+							<a class="hvr-grow" href="mailto:<?php $this->info("email"); ?>">
 								<?php $this->info("email"); ?>
 							</a>
 						</div>
@@ -107,18 +106,16 @@
 			<div class="nav-holder">
 				<nav>
 					<ul>
-						<li <?php $this->helpers->isActiveMenu("home"); ?>><a class="nav-link nav-link-fade-up"
-								href="<?php echo URL ?>">HOME</a>
-						</li>
-						<li <?php $this->helpers->isActiveMenu("faq"); ?>><a class="nav-link nav-link-fade-up"
-								href="<?php echo URL ?>faq#content">FAQ</a></li>
-						<li <?php $this->helpers->isActiveMenu("insurance"); ?>><a class="nav-link nav-link-fade-up"
-								href="<?php echo URL ?>insurance#content">INSURANCE</a></li>
-						<li <?php $this->helpers->isActiveMenu("testimonials"); ?>><a class="nav-link nav-link-fade-up"
-								href="<?php echo URL ?>testimonials#content">TESTIMONIALS</a></li>
-						<li <?php $this->helpers->isActiveMenu("gallery"); ?>><a class="nav-link nav-link-fade-up"
+						<li <?php $this->helpers->isActiveMenu("home"); ?>><a href="<?php echo URL ?>">HOME</a></li>
+						<li <?php $this->helpers->isActiveMenu("about"); ?>><a
+								href="<?php echo URL ?>about#content">ABOUT US</a></li>
+						<li <?php $this->helpers->isActiveMenu("services"); ?>><a
+								href="<?php echo URL ?>services#content">SERVICES</a></li>
+						<li <?php $this->helpers->isActiveMenu("gallery"); ?>><a
 								href="<?php echo URL ?>gallery#content">GALLERY</a></li>
-						<li <?php $this->helpers->isActiveMenu("contact"); ?>><a class="nav-link nav-link-fade-up"
+						<li <?php $this->helpers->isActiveMenu("testimonials"); ?>><a
+								href="<?php echo URL ?>testimonials#content">TESTIMONIALS</a></li>
+						<li <?php $this->helpers->isActiveMenu("contact"); ?>><a
 								href="<?php echo URL ?>contact#content">CONTACT US</a></li>
 					</ul>
 				</nav>
@@ -129,7 +126,7 @@
 				<p class="copy">
 					©
 					<?php echo date("Y"); ?>.
-					<?php $this->info("company_name"); ?>. ALL RIGHTS RESERVED.
+					<?php $this->info("company_name"); ?>. All Rights Reserved.
 					<?php if ($this->siteInfo['policy_link']): ?>
 						<a href="<?php $this->info("policy_link"); ?>">Privacy Policy</a>.
 					<?php endif ?>
@@ -171,7 +168,7 @@
 
 	window.addEventListener("scroll", reveal);
 
-	HEADER FIXED
+	// HEADER FIXED
 	document.addEventListener("DOMContentLoaded", function () {
 		var header = document.getElementById("header");
 		var logoImg = document.querySelector("#header .logo-holder img");

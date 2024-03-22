@@ -2,7 +2,7 @@
 
 	<div id="welcome">
 		<div class="row flex">
-			<div class="welcome-con">
+			<div class="welcome-con reveal fade-right active">
 				<div class="wrapper">
 
 					<div class="logo-holder">
@@ -82,7 +82,7 @@
 	</div>
 
 	<div id="section1">
-		<div class="row">
+		<div class="row reveal fade-left active">
 			<h1>Our Unwavering Commitment To Excellence and A Passion For Innovation Makes Us Different from the Rest
 			</h1>
 			<p>Transforming Dreams into Homes. Elevate your living experience with our expert remodeling services,
@@ -116,9 +116,9 @@
 						functionality, and modernity in the heart of Los Angeles.</p>
 				</div>
 				<div class="img-holder flex">
-					<img loading="lazy" src="public/images/content/project-img1.jpg" alt="project">
-					<img loading="lazy" src="public/images/content/project-img2.jpg" alt="project">
-					<img loading="lazy" src="public/images/content/project-img3.jpg" alt="project">
+					<img loading="lazy" src="public/images/content/project-img1.jpg" alt="project" class="hvr-grow">
+					<img loading="lazy" src="public/images/content/project-img2.jpg" alt="project" class="hvr-grow">
+					<img loading="lazy" src="public/images/content/project-img3.jpg" alt="project" class="hvr-grow">
 				</div>
 			</div>
 		</div>
